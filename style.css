@@ -43,7 +43,7 @@
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 5px 20px;
+    border-radius: 0px 20px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -147,4 +147,21 @@
 
 .card p {
     padding: 5px 15px 20px 15px;
+}
+
+
+.footer {
+    background-color: #03070a;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 30px 5%;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: grey;
+    padding-right: 20px;
 }
