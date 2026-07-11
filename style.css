@@ -86,13 +86,13 @@
     align-items: center;
     text-align: center;
     color: white;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .header-content h1 {
     font-size: 70px;
     font-weight: bold;
-    width:auto;
+    width: auto;
 }
 
 .header-content p {
@@ -110,3 +110,41 @@
     color: white;
 }
 
+.speakers-heading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.speaker-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 8%;
+    gap: 20px;
+}
+
+.card {
+    align-items: left;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h4 {
+    color: #0056b3;
+    padding: 5px 15px;
+}
+
+.card h2 {
+    padding: 5px 15px;
+}
+
+.card p {
+    padding: 5px 15px 20px 15px;
+}
